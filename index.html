@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section>
+        <div class="boxes">
+        <div class="box">
+            <img src="./assets/imgs/laptop.jpg" alt="laptop">
+            <p>Laptop Gamer AMD</p>
+            <input type="number" name="Cantidad" id="cantidad" placeholder="Cantidad">
+            <input type="text" name="color" id="color" placeholder="Color">
+            <p>Precio:400000</p>
+            <button type="button" onclick="Calcular()">Calcular Total</button>
+        </div>
+        <div class="box-side">
+            <p>Total:<span id="total">$</span></p>
+            <p>Cantidad:<span id="cantidad-total"></span> </p>
+            <div class="cajita">
+                <p id="color-radius"> color:</p>
+                <div id="box-color"> </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

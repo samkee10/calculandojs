@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+}
+.box{
+    background-color: rgb(107, 161, 26);
+    flex-direction: column;
+    color: white;
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.box button{
+    background-color:orange;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10%;
+
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+
+}
+.box-side{
+    align-items:center ;
+    flex-direction: column;
+    display: flex;
+    text-align: end;
+    margin-top: 50px;
+    
+}
+
+.box img{
+    width: 180px;
+    height: 130px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+.box input{
+    margin-bottom: 15px;
+    border-radius: 20%;
+}
+.cajita{
+    display: flex;
+    align-items: center;
+}
+#box-color{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
